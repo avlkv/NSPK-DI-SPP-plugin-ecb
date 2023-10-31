@@ -1,7 +1,7 @@
-# This plugin processes <File | Native | Another> source
+# This plugin processes Native source
 # Link: <link to source website>
 # Author:
-#   Лупашко Роман Владимирович
+#   Соловьев Иван Евгениевич
 #	NSPK DI
 
 # указание уникального имени источника
@@ -13,6 +13,7 @@ PARSER ecb
 
 # Тут указывается класс парсера и метод, который платформа будет вызывать
 # START <название класса парсера> <метод, который должен вернуть список документов>
+INIT webdriver WebDriver
 START ECB content
 
 

@@ -19,11 +19,11 @@ START ECB content
 
 # Такая конфигурация модулей подходит для "файловых противных источников"
 # ADD <название модуля> [<опциональные параметры>, ...]
-# ADD FilterOnlyNewDocumentWithDB
-# ADD DownloadDocumentsThroughSeleniumTemp
-# ADD ExtractTextFromFile
-# ADD UploadDocumentToDB
+ADD FilterOnlyNewDocumentWithDB
+ADD DownloadDocumentsThroughSeleniumTemp
+ADD ExtractTextFromFile
+ADD UploadDocumentToDB
 
 # Такая конфигурация модулей подходит для "Нативных источников"
-ADD FilterOnlyNewDocumentWithDB
-ADD UploadDocumentToDB
+# ADD FilterOnlyNewDocumentWithDB
+# ADD UploadDocumentToDB
